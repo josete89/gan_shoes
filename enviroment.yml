@@ -1,0 +1,14 @@
+name: tfcoreml
+dependencies:
+- python=2.7
+- pip
+- numpy
+- jupyter
+- scipy  
+- pip:
+    - tensorflow==1.4
+    - tfcoreml
+    - opencv-python
+    - pillow
+
+    
